@@ -4,7 +4,7 @@ stc{hoge}というflagを用意しているので、練習がてらに見つけ�
 ## 1. 使用するディレクトリ/フォルダを準備しよう
 ターミナルを開いてコマンドを実行しよう  
 ```
-git clone https://github.com/kisqragi/study-group-1st.git
+git clone https://github.com/yamaguchi1024/mc-lang-1.git
 ```
 `ls`コマンドでディレクトリがあるか確認。(lsと打ってエンター) 
 上手くいっていればstudy-group-1stというディレクトリができているはずです。  
@@ -68,6 +68,7 @@ less less_file
 | N | 前の検索結果へ移動 |
 
 ### flagを探してみましょう！  
+見つかりましたか？
 
 lessコマンドを終了する場合は `q` を押しましょう。  
 元の画面に戻ったと思います。  
