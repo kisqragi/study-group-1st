@@ -138,9 +138,9 @@ git clone https://github.com/yamaguchi1024/mc-lang-1.git
 clang++ -> clang++-8
 llvm-config -> llvm-config-8
 ```
-次にclang++のバージョン8をインストールします。  
+次にclang++とllvmのversion8をインストールします。  
 ```
-apt-get install clang-8 lldb-8 lld-8
+apt-get install clang++-8 lldb-8 lld-8
 ```
 では、環境が整ったのでmakeコマンドを使ってmc実行ファイルを作ろうと思います。  
 ```
@@ -186,3 +186,6 @@ lessコマンドの操作を忘れてしまった人は、前に戻るか検索�
 manコマンドに慣れるまでは`less コマンド オプション` のように検索した方が速いかもれしれません。  
 (私は未だにすぐ検索してしまいます。)  
 自分のやりやすい方を選べば良いと思います。  
+
+## コマンドのパイプライン処理
+
