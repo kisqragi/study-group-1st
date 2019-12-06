@@ -212,14 +212,14 @@ brew install clang++
 
 Makefileの書き換えを行います。  
 ```
-llvm-config -> /usr/local/Cellar/llvm/9.0.0\_1/bin/llvm-config
+llvm-config -> /usr/local/Cellar/llvm/9.0.0_1/bin/llvm-config
 ```
 makeコマンドを実行して、mc-lang-1ディレクトリ内にmc実行ファイルが生成されたかを確認してください。  
 されていれば成功です。  
 
 されていない場合、バージョン等の違いでPathが違うかもしれません。  
 ```
-find / -name "llvm-config\*"
+find / -name "llvm-config*"
 ```
 上記のコマンドを実行して、数行ほど出たところで`Ctrl + c`で実行を止めます。  
 その中で似たようなパスを探してください。  
