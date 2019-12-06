@@ -140,7 +140,7 @@ llvm-config -> llvm-config-8
 ```
 次にclang++とllvmのversion8をインストールします。  
 ```
-apt-get install clang++-8 lldb-8 lld-8
+sudo apt-get install clang++-8 lldb-8 lld-8
 ```
 では、環境が整ったのでmakeコマンドを使ってmc実行ファイルを作ろうと思います。  
 ```
